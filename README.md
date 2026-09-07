@@ -3,7 +3,7 @@
 โปรเจกต์นี้เป็นการวิเคราะห์และออกแบบระบบ (System Analysis) สำหรับแพลตฟอร์มการบริจาคเลือด โดยโฟกัสที่การออกแบบ Business Logic และเส้นทางการใช้งานของผู้ใช้ (User Journey) ตั้งแต่ฝั่งผู้บริจาคไปจนถึงฝั่งโรงพยาบาล
 
 ### System Architecture & Conceptual Flow
-![System Flow](images/system_flow.jpg)
+![System Flow](images/system_flow.png)
 
 จากการออกแบบ System Flow ในภาพรวม ระบบถูกออกแบบให้รองรับการจัดการข้อมูลแบบ End-to-End โดยมีจุดเด่นดังนี้:
 * **Location-Based Matching:** ระบบประมวลผลตำแหน่ง (GPS) ของผู้บริจาค เพื่อจับคู่กับความต้องการของโรงพยาบาลหรือธนาคารเลือดที่อยู่ใกล้เคียง 
